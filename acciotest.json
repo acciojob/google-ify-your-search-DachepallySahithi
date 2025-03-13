@@ -1,0 +1,4 @@
+{
+    "testRepo": "google-ify-your-search-solution",
+    "pathToFile": "cypress/integration/tests/test.spec.js"
+}
