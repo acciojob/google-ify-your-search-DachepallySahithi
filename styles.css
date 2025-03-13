@@ -98,6 +98,16 @@ body {
             color: #70757a;
         }
 
+        .footer-left {
+            display: flex;
+            align-items: center;
+        }
+
+        .footer-right {
+            display: flex;
+            align-items: center;
+        }
+
         .footer a {
             text-decoration: none;
             color: #70757a;
