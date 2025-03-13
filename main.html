@@ -7,28 +7,43 @@
   </head>
 
   <body>
-	  <div class="navbar">
-        <img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Google_2015_logo.svg/1200px-Google_2015_logo.svg.png" alt="Google Logo">
-        <button class="sign-in">Sign in</button>
-    </div>
+	  <nav class="nav">
+        <a href="#">Gmail</a>
+        <a href="#">Images</a>
+        <a href="#">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-grid"><rect x="3" y="3" width="7" height="7"></rect><rect x="14" y="3" width="7" height="7"></rect><rect x="14" y="14" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect></svg>
+        </a>
+        <button>Sign in</button>
+    </nav>
 
-	  <div class="main-content">
-        <div class="search-container">
-            <input type="text" class="search-bar" placeholder="Search Google or type a URL">
-            <div class="search-buttons">
-                <button class="google-search">Google Search</button>
-                <button class="lucky-search">I'm Feeling Lucky</button>
+    <main class="main">
+        <div class="logo">
+            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
+        </div>
+        <div class="search-bar">
+            <input type="text">
+            <div class="mic-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-mic"><path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"></path><path d="M19 10v2a7 7 0 0 1-14 0v-2"></path><line x1="12" y1="19" x2="12" y2="23"></line><line x1="8" y1="23" x2="16" y2="23"></line></svg>
             </div>
         </div>
-    </div>
-
-	  <footer>
-        <div class="footer-left">
-            <p>India</p>
-            <a href="https://policies.google.com/privacy">Privacy</a>
+        <div class="search-buttons">
+            <button>Google Search</button>
+            <button>I'm Feeling Lucky</button>
         </div>
-        <div class="footer-right">
-            <p>© 2025 Google</p>
+    </main>
+
+    <footer class="footer">
+        <div>
+            <a href="#">India</a>
+            <a href="#">About</a>
+        </div>
+        <div>
+            <a href="#">Advertising</a>
+            <a href="#">Business</a>
+            <a href="#">How Search works</a>
+            <a href="#">Privacy</a>
+            <a href="#">Terms</a>
+            <a href="#">Settings</a>
         </div>
     </footer>
     <!-- the entire body must be written by student -->
