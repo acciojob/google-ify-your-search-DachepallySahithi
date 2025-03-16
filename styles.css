@@ -1,119 +1,102 @@
 body {
-            font-family: arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            flex-direction: column;
-            min-height: 100vh;
-        }
+    font-family: arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
 
-        /* Navigation Bar */
-        .nav {
-            display: flex;
-            justify-content: flex-end;
-            padding: 10px 20px;
-        }
+/* Navigation Bar */
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    align-items: center;
+}
 
-        .nav a {
-            text-decoration: none;
-            color: #5f6368;
-            margin-left: 20px;
-        }
+.nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #202124;
+    font-size: 13px;
+}
 
-        .nav a:hover {
-            text-decoration: underline;
-        }
+.nav button {
+    background-color: #1a73e8;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+}
 
-        .nav button {
-            background-color: #4285f4;
-            color: white;
-            border: none;
-            padding: 8px 15px;
-            border-radius: 4px;
-            cursor: pointer;
-        }
+/* Main Content */
+.main {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
-        /* Main Content (Search) */
-        .main {
-            flex-grow: 1;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-        }
+.logo {
+    margin-bottom: 20px;
+}
 
-        .logo {
-            margin-bottom: 20px;
-        }
+.logo img {
+    height: 92px;
+}
 
-        .logo img {
-            height: 92px;
-        }
+.search-bar {
+    width: 584px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+}
 
-        .search-bar {
-            width: 580px;
-            max-width: 90%;
-            border: 1px solid #dfe1e5;
-            border-radius: 24px;
-            padding: 10px 15px;
-            display: flex;
-            align-items: center;
-        }
+.search-bar input {
+    flex-grow: 1;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
 
-        .search-bar input[type="text"] {
-            flex-grow: 1;
-            border: none;
-            outline: none;
-            font-size: 16px;
-            padding: 4px 10px;
-        }
+.search-bar img {
+    height: 20px;
+    margin-left: 10px;
+}
 
-        .search-bar .mic-icon {
-            padding: 5px;
-            cursor: pointer;
-        }
+.search-buttons {
+    margin-top: 20px;
+}
 
-        .search-buttons {
-            margin-top: 20px;
-        }
+.search-buttons button {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    color: #3c4043;
+    padding: 10px 16px;
+    margin: 0 4px;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+}
 
-        .search-buttons button {
-            background-color: #f8f9fa;
-            border: 1px solid #f8f9fa;
-            border-radius: 4px;
-            color: #3c4043;
-            font-size: 14px;
-            padding: 10px 16px;
-            margin: 0 5px;
-            cursor: pointer;
-        }
+/* Footer */
+.footer {
+    background-color: #f2f2f2;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #70757a;
+}
 
-        /* Footer */
-        .footer {
-            background-color: #f2f2f2;
-            padding: 15px 30px;
-            display: flex;
-            justify-content: space-between;
-            font-size: 14px;
-            color: #70757a;
-        }
-
-        .footer-left {
-            display: flex;
-            align-items: center;
-        }
-
-        .footer-right {
-            display: flex;
-            align-items: center;
-        }
-
-        .footer a {
-            text-decoration: none;
-            color: #70757a;
-            margin: 0 10px;
-        }
-
-        .footer a:hover {
-            text-decoration: underline;
-        }
+.footer a {
+    color: #70757a;
+    text-decoration: none;
+    margin: 0 10px;
+}
