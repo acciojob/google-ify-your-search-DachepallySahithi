@@ -7,33 +7,37 @@
   </head>
 
   <body>
-	  <header>
-    <nav>
-      <div class="logo">Google Logo</div>
-      <div class="nav-links">
-        <a href="#">Gmail</a>
-        <a href="#">Images</a>
-        <button>Sign In</button>
-      </div>
-    </nav>
+	  <header class="navbar">
+    <div class="nav-links">
+      <a href="#">Gmail</a>
+      <a href="#">Images</a>
+      <span class="menu-icon">☰</span>
+      <button class="sign-in">Sign in</button>
+    </div>
   </header>
-  <main>
-    <div class="search-container">
-      <img src="google-logo.png" alt="Google Logo"> 
-      <input type="text" class="search-bar">
+
+  <!-- Main Section -->
+  <main class="main-content">
+    <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google Logo" class="logo"/>
+    <div class="search-box">
+      <input type="text" class="search-input"/>
       <div class="search-buttons">
         <button>Google Search</button>
         <button>I'm Feeling Lucky</button>
       </div>
     </div>
   </main>
-  <footer>
+
+  <!-- Footer -->
+  <footer class="footer">
     <div class="footer-left">
-      <p>India</p>
-      <a href="#">Privacy</a>
+      <span>India</span>
+      <a href="https://policies.google.com/privacy">About</a>
     </div>
     <div class="footer-right">
-      <!-- {/* Add right footer content here */} -->
+      <a href="#">Privacy</a>
+      <a href="#">Terms</a>
+      <a href="#">Settings</a>
     </div>
   </footer>
     <!-- the entire body must be written by student -->
